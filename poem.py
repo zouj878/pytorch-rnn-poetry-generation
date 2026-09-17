@@ -25,7 +25,6 @@ def process_poems(file_path):
         sequences.append(seq)
     return sequences, word2idx, vocab
 
-# ========== 这里改成你的D盘路径 ==========
 sequences, word2idx, vocab = process_poems(r"D:\poems\poems.txt")
 
 # ====================== 9.4.2 自定义Dataset ======================
